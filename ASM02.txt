@@ -1,0 +1,73 @@
+DSA - Assignment 2
+Sale Management System
+using Binary Search Tree data structure
+INTRODUCTION
+Your second assignment in this block will be using binary search tree data struture for implementing a small Sale Management System  (SMS) in Java language. 
+SMS manages information about products, customers and product ordering items. These information are:
+About a product:
+
+pcode (string): the code of the product (this is the key of the tree and thus should be unique).
+pro_name (string): the name of the product.
+quantity (integer): the number of  products with the same code in a shop at beginning of a day.
+saled (integer): the number of  products with the same code, which are saled in the day. Condition: saled ≤ quantity.
+price (double): The price of the product.
+About a customer:
+
+ccode (string): the code of the customer (this should be unique for the customer).
+cus_name (string): the name of the customer.
+phone (string): The phone number of the customer (must contain digits only).
+About ordering:
+
+pcode (string): the code of the product to be ordered.
+ccode (string): the code of the customer.
+quantity (integer): the number of  ordered products.
+YOUR TASKS
+You should use 1 binary search tree to store data for products and 2 linked lists, each one is used to store data for customers or ordering items. You should create the data structures from scratch, do not use structures available in java.
+On running, your program displays the menu as below:
+
+Products (8 marks) (using Binary Search  Tree data structure, where bcode is the key of the tree):
+1.1.      Load data from file
+1.2.      Input & insert data
+1.3.      In-order traverse
+1.4.      Breadth-first traverse
+1.5.      In-order traverse to file
+1.6.      Search by pcode
+1.7.      Delete by pcode by copying
+1.8.      Simply balancing
+1.9.      Count number of products
+
+Customer list (1 mark):
+2.1.      Load data from file
+2.2.      Input & add to the end
+2.3.      Display data
+2.4.      Save customer list to file
+2.5.      Search by ccode
+2.6.      Delete by ccode
+
+Order list (1 mark):
+3.1.      Input data
+3.2.      Display ordering data
+3.3.      Sort  by pcode + ccode
+
+    
+Submission Requirements
+Create the directory with a name like <class>-<name><roll number>-ASS1, e.g.
+            SE0508-QuangTV00456-AS1                        (1)
+The (1) directory contains the following files:
+
+The run.bat  file to run your program.
+Your source code files.
+Your input test files.
+The statements in run.bat file may be:
+cls
+javac Main.java
+java Main
+pause
+del *.class
+
+Compress the folder   (1)  to .zip (or .rar) file (with the same name) and upload to cms.
+
+Assignment assessment
+You will be asked to modify immediately and to explain your assignment in lab room to be sure that you are really the author  of the assignment you submitted.
+
+ 
